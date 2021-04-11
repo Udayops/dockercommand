@@ -1,0 +1,109 @@
+    1  ls
+    2  sudo yum install docker
+    3  docker version
+    4  docker ps
+    5  systemctl status docker.service
+    6  systemctl start docker.service
+    7  sudo systemctl start docker.service
+    8  sudo systemctl status docker.service
+    9  docker image
+   10  sudo docker image
+   11  docker ps
+   12  sudo docker ps
+   13  docker image
+   14  ps -ef|grp docker
+   15  ps -ef|grep docker
+   16  sudo usermod -a -G docker ec2-user
+   17  docker pull httpd
+   18  sudo docker pull httpd
+   19  docker image
+   20  sudo docker image
+   21  sudo docker images
+   22  sudo docker pull httpd:2.4
+   23  sudo docker images
+   24  sudo docker run -d httpd
+   25  ps
+   26  sudo docker ps
+   27  docker exec -it 508e88254d3a bash
+   28  sudo docker exec -it 508e88254d3a bash
+   29  sudo docker run -d -p 8080:80 httpd
+   30  sudo docker images
+   31  docker ps
+   32  sudo docker ps
+   33  ls
+   34  docker versiom
+   35  docker version
+   36  docker ps
+   37  service docker start
+   38  systemctl start docker.service
+   39  systemctl status docker.service
+   40  systemctl start docker.service
+   41  sudo systemctl start docker.service
+   42  systemctl status docker.service
+   43  docker images
+   44  docker ps
+   45  vim dockerfile
+   46  docker buid -t nginx-server:v1
+   47   docker build -t nginx-server:v1
+   48  ls
+   49  docker images
+   50   docker build --help
+   51  ls
+   52  mv dockerfile Dockerfile
+   53  ls
+   54   docker build -t nginx-server:v1
+   55   docker build -f Dockerfile -t nginx-server:v1
+   56  sudo docker build -f Dockerfile -t nginx-server:v1
+   57  docker build -t nginx-server:v1
+   58  ls
+   59  docker images
+   60  docker build -t nginx-server
+   61  docker images
+   62  docker build -t nginx-server:v1 .
+   63  docker images
+   64  docker run -d -p 8081:80 nginx-server
+   65  sudo docker run -d -p 8081:80 nginx-server
+   66  sudo docker run -d -p 8081:80 nginx-server:v1
+   67  ls
+   68  docker images
+   69  yum install docker
+   70  sudo yum install docker
+   71  docker version
+   72  sudo sytemctl start docker.service
+   73  sudo systemctl start docker.service
+   74  sudo systemctl status docker.service
+   75  docker images
+   76  docker pull httpd 2
+   77  docker pull httpd:2
+   78  docker images
+   79  docker ps
+   80  docker run httpd
+   81  docker ps
+   82  docker run -d  -p 8080:80 httpd
+   83  docker ps
+   84  ls
+   85  cat Dockerfile 
+   86  docker images
+   87  vim Dockerfile
+   88  rm -rf Dockerfile
+   89  ls
+   90  touch Dockerfile
+   91  ls
+   92  vim Dockerfile
+   93  sudo docker build -t ngnix-reetu:v1 .
+   94  docke ps
+   95  docker ps
+   96  docker images
+   97  docker run -d -p 8081:80 nginx-reetu
+   98  docker run -d -p 8081:80 nginx-reetu:v1
+   99  docker run -d -p 8081:80 ngnix-reetu:v1
+  100  docker ps
+  101  docker exec -it 90dac3ed0086 bash
+  102  docker ps
+  103  sudo docker rm -f adca4b35ca51
+  104  docker ps
+  105  ls
+  106  cat history >> dockerCommand.txt
+  107  cat history > dockerCommand.txt
+  108  cat command history > dockerCommand.txt
+  109  history > dockerCommand.txt
